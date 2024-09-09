@@ -1,4 +1,4 @@
-FROM node:12-alpine
+FROM node:18-alpine
 WORKDIR /GETTING-STARTED-APP-MAIN
 COPY . .
 RUN yarn install --production
