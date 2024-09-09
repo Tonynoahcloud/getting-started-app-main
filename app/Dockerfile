@@ -1,4 +1,4 @@
-# sample dockerfile configuration
+# sample dockerfile
 FROM node:18-alpine
 WORKDIR /app
 COPY . .
