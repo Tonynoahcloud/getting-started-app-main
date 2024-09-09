@@ -1,4 +1,4 @@
-FROM node:18-alpine
+FROM node:12-alpine
 RUN apk add --no-cache python2 ++g make
 WORKDIR /GETTING-STARTED-APP-MAIN
 COPY . .
