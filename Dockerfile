@@ -1,7 +1,7 @@
 # sample
-FROM node:18
-WORKDIR /getting-started-app-main/app
+FROM node:18-alpine
+WORKDIR /app
 COPY . .
 RUN yarn install --production
-CMD ["node", "index.js"]
+CMD ["node", "app/index.js"]
 EXPOSE 3000

@@ -1,10 +1,10 @@
 const express = require('express');
 const app = express();
-const db = require('./persistence');
-const getItems = require('./routes/getItems');
-const addItem = require('./routes/addItem');
-const updateItem = require('./routes/updateItem');
-const deleteItem = require('./routes/deleteItem');
+const db = require('./src/persistence');
+const getItems = require('./src/routes/getItems');
+const addItem = require('./src/routes/addItem');
+const updateItem = require('./src/routes/updateItem');
+const deleteItem = require('./src/routes/deleteItem');
 
 app.use(express.json());
 app.use(express.static(__dirname + '/static'));
