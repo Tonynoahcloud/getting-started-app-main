@@ -1,4 +1,4 @@
-# added
+# added yet
 FROM node:18-alpine
 WORKDIR /GETTING-STARTED-APP-MAIN
 COPY . .
